@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Number Input Example</title>
+</head>
+<body>
+<form action="#" th:action="@{/submit}" method="post">
+    <label for="numberInput">Enter a number:</label>
+    <input type="number" id="numberInput" name="numberInput" th:min="0" required>
+    <button type="submit">Оплатить</button>
+</form>
+</body>
+</html>
